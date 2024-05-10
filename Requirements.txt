@@ -1,0 +1,11 @@
+These are the required libraries to run the analysis: 
+
+from datetime import datetime, timedelta
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
+
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
